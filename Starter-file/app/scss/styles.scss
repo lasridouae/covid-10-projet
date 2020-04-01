@@ -190,7 +190,7 @@ h4{
 
 .quest{
  
-
+  padding-block-end: 2em;
   background-color: #95C4DB;
 
 
@@ -230,9 +230,9 @@ color: #1078AD;
 }
 
 .footer{
-
  
-  &__main{
+ 
+  &__col-1{
       img{
         flex-direction: row;
         margin-left: 38em;
@@ -278,9 +278,15 @@ color: #1078AD;
       text-decoration: none;
       
     }
+    .buttom-line{
+      margin-top: 9em;
+      padding: 1em;
+      background-color:#1078AD ;
+    }
+     
   }
+
  
-  
    
      
       

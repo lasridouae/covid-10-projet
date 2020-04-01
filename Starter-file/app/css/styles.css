@@ -145,6 +145,7 @@
       display: inline-block; }
 
 .quest {
+  padding-block-end: 2em;
   background-color: #95C4DB; }
   .quest img {
     margin-left: 39em;
@@ -172,7 +173,7 @@
       color: white;
       background: #1078AD; }
 
-.footer__main img {
+.footer__col-1 img {
   flex-direction: row;
   margin-left: 38em; }
 
@@ -209,3 +210,8 @@
   color: #1078AD;
   text-align: center;
   text-decoration: none; }
+
+.footer .buttom-line {
+  margin-top: 9em;
+  padding: 1em;
+  background-color: #1078AD; }
