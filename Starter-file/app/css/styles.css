@@ -115,3 +115,15 @@ button {
 
 h4 {
   text-align: center; }
+
+.container {
+  background-color: #1078AD;
+  color: white; }
+  .container h2 {
+    text-align: center; }
+  .container .title {
+    font-weight: bold;
+    margin-left: 18em;
+    margin-top: 1em; }
+  .container p {
+    margin-left: 7em; }
