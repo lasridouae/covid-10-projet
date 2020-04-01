@@ -71,40 +71,38 @@
   .test p {
     font-weight: bold;
     color: #7F7F7F; }
+  .test .image img {
+    margin-top: 1em;
+    margin-left: 9em;
+    width: 75%; }
+  .test .btn {
+    font-weight: bold;
+    margin-top: 1em;
+    background-color: #BCDAEA;
+    border: 2px solid #1078AD;
+    color: #1078AD;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 28em; }
+    .test .btn:hover {
+      color: white;
+      background: #1078AD; }
 
-.image img {
-  margin-top: 1em;
-  margin-left: 9em;
-  width: 75%; }
-
-button {
-  font-weight: bold;
-  margin-top: 1em;
-  background-color: #BCDAEA;
-  border: 2px solid #1078AD;
-  color: #1078AD;
-  border-radius: 10px;
-  padding: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  width: 28em; }
-  button:hover {
-    color: white;
-    background: #1078AD; }
-
-.title h2 {
+.cont .title h2 {
   margin-top: 40px;
   font-weight: bold;
   text-align: center;
   color: #1078AD; }
 
-.content {
+.cont .content {
   display: flex;
   flex-wrap: wrap; }
 
-.card {
+.cont .card {
   flex: 4 0 40%;
   margin: 20px;
   height: 170px;
@@ -113,17 +111,66 @@ button {
   align-items: center;
   justify-content: center; }
 
-h4 {
+.cont h4 {
   text-align: center; }
 
-.container {
+.rec {
   background-color: #1078AD;
   color: white; }
-  .container h2 {
+  .rec__titles h3 {
+    margin-left: 17em; }
+  .rec h2 {
     text-align: center; }
-  .container .title {
-    font-weight: bold;
-    margin-left: 18em;
-    margin-top: 1em; }
-  .container p {
+  .rec p {
     margin-left: 7em; }
+  .rec .sec {
+    flex-direction: column;
+    margin-left: 45em;
+    display: flex;
+    margin-top: 1em;
+    margin-left: 65em; }
+    .rec .sec h3 {
+      margin-left: 2em;
+      margin-top: -10em;
+      color: #F4CF1B; }
+    .rec .sec input[type=button] {
+      margin-top: 9em;
+      width: 10em;
+      font-weight: bold;
+      margin-top: 1em;
+      background-color: #F4CF1B;
+      border: 2px solid #1078AD;
+      color: #1078AD;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block; }
+
+.quest {
+  margin: 0;
+  padding: 0;
+  background-color: #95C4DB; }
+  .quest img {
+    margin-left: 39em;
+    margin-top: 1em;
+    width: 41px; }
+  .quest h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #1078AD; }
+  .quest .btn {
+    margin-left: 30em;
+    font-weight: bold;
+    margin-top: 1em;
+    background-color: #BCDAEA;
+    border: 2px solid #1078AD;
+    color: #1078AD;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 21em; }
+    .quest .btn:hover {
+      color: white;
+      background: #1078AD; }
