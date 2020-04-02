@@ -5,10 +5,11 @@
   align-items: center;
   justify-content: space-between;
   background-color: #BCDAEA;
-  color: black;
-  height: 17px;
+  color: $color-black;
+  height: 1em;
   padding: 1em;
-}
+ 
+
 
 .nav {
   display: flex;
@@ -21,21 +22,14 @@
 }
   .nav-links{
     margin-left: 40px;
-      color: black;
+      color: $color-black;
     text-decoration: none;
+   
   }
     
-  .logo {
-    color: #95C4DB;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-left: 20px;
-  }
   
-  .logo:hover,
   .nav-links:hover {
   font-weight: bold;
-    color: #1078AD;
+    color: $color-blue;
   }
+}

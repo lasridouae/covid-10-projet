@@ -9,35 +9,22 @@
   align-items: center;
   justify-content: space-between;
   background-color: #BCDAEA;
-  color: black;
-  height: 17px;
+  color: #2B2B2C;
+  height: 1em;
   padding: 1em; }
-
-.nav {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none; }
-
-.nav > li {
-  margin: 0 1rem; }
-
-.nav-links {
-  margin-left: 40px;
-  color: black;
-  text-decoration: none; }
-
-.logo {
-  color: #95C4DB;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin-top: 10px;
-  margin-left: 20px; }
-
-.logo:hover,
-.nav-links:hover {
-  font-weight: bold;
-  color: #1078AD; }
+  .top-nav .nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; }
+  .top-nav .nav > li {
+    margin: 0 1rem; }
+  .top-nav .nav-links {
+    margin-left: 40px;
+    color: #2B2B2C;
+    text-decoration: none; }
+  .top-nav .nav-links:hover {
+    font-weight: bold;
+    color: #1078AD; }
 
 .info_med {
   background-color: #F4CF1B;
@@ -89,7 +76,7 @@
     font-size: 16px;
     width: 28em; }
     .test .btn:hover {
-      color: white;
+      color: #FFF;
       background: #1078AD; }
 
 .cont .title h2 {
@@ -106,7 +93,7 @@
   flex: 4 0 40%;
   margin: 20px;
   height: 170px;
-  color: #1078AD;
+  color: color-blue;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -116,7 +103,7 @@
 
 .rec {
   background-color: #1078AD;
-  color: white; }
+  color: #FFF; }
   .rec__titles h3 {
     margin-left: 17em; }
   .rec h2 {
@@ -146,7 +133,7 @@
 
 .quest {
   padding-block-end: 2em;
-  background-color: #95C4DB; }
+  background-color: #BCDAEA; }
   .quest img {
     margin-left: 39em;
     margin-top: 1em;
@@ -170,7 +157,7 @@
     font-size: 16px;
     width: 21em; }
     .quest .btn:hover {
-      color: white;
+      color: #FFF;
       background: #1078AD; }
 
 .footer__col-1 img {
@@ -179,7 +166,7 @@
 
 .footer__col-2 h3 {
   margin-left: 15em;
-  color: #1078AD; }
+  color: color-blue; }
 
 .footer__col-2 h4 {
   margin-left: -34em;
