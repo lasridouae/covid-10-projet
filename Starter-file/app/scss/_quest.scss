@@ -1,0 +1,40 @@
+
+.quest{
+ 
+    padding-block-end: 2em;
+    background-color: #95C4DB;
+  
+  
+    img {
+      margin-left: 39em;
+        margin-top: 1em;
+        width: 41px;
+        
+       }
+  h3{
+   
+    text-align: center;
+  font-weight: bold;
+  color: #1078AD;
+  
+  }
+  .btn{
+    margin-left: 30em;
+    font-weight: bold;
+    margin-top: 1em;
+    background-color:#BCDAEA ; 
+    border: 2px solid #1078AD;
+    color:  #1078AD;
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+    width: 21em;
+    &:hover{
+        color:  white;
+      background:  #1078AD;
+      }
+  } 
+}
