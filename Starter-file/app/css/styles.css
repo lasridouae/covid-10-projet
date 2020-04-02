@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Cairo', sans-serif; }
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #BCDAEA;
+  color: #2B2B2C;
+  height: 1em;
+  padding: 1em; }
+  .top-nav .nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; }
+  .top-nav .nav > li {
+    margin: 0 1rem; }
+  .top-nav .nav-links {
+    margin-left: 40px;
+    color: #2B2B2C;
+    text-decoration: none; }
+  .top-nav .nav-links:hover {
+    font-weight: bold;
+    color: #1078AD; }
+
+.info_med {
+  background-color: #F4CF1B;
+  text-align: center; }
+
+.info h3 {
+  font-weight: bold;
+  padding-top: 11px;
+  color: #1078AD; }
+
+.info p {
+  margin-top: 0em;
+  padding-bottom: 22px; }
+
+.test {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center; }
+  .test_container {
+    margin-top: 2em;
+    text-align: center;
+    margin-left: 6em; }
+  .test img {
+    margin-top: 1em;
+    width: 40px; }
+  .test h3 {
+    font-weight: bold;
+    color: #1078AD; }
+  .test p {
+    font-weight: bold;
+    color: #7F7F7F; }
+  .test .image img {
+    margin-top: 1em;
+    margin-left: 9em;
+    width: 75%; }
+  .test .btn {
+    font-weight: bold;
+    margin-top: 1em;
+    background-color: #BCDAEA;
+    border: 2px solid #1078AD;
+    color: #1078AD;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 28em; }
+    .test .btn:hover {
+      color: #FFF;
+      background: #1078AD; }
+
+.cont .title h2 {
+  margin-top: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #1078AD; }
+
+.cont .content {
+  display: flex;
+  flex-wrap: wrap; }
+
+.cont .card {
+  flex: 4 0 40%;
+  margin: 20px;
+  height: 170px;
+  color: color-blue;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.cont h4 {
+  text-align: center; }
+
+.rec {
+  background-color: #1078AD;
+  color: #FFF; }
+  .rec__titles h3 {
+    margin-left: 17em; }
+  .rec h2 {
+    text-align: center; }
+  .rec p {
+    margin-left: 7em; }
+  .rec .sec {
+    flex-direction: column;
+    display: flex;
+    margin-top: 1em;
+    margin-left: 60em; }
+    .rec .sec h3 {
+      margin-left: 2em;
+      margin-top: -10em;
+      color: #F4CF1B; }
+    .rec .sec input[type=button] {
+      margin-top: 9em;
+      width: 10em;
+      font-weight: bold;
+      margin-top: 1em;
+      background-color: #F4CF1B;
+      border: 2px solid #1078AD;
+      color: #1078AD;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block; }
+
+.quest {
+  padding-block-end: 2em;
+  background-color: #BCDAEA; }
+  .quest img {
+    margin-left: 39em;
+    margin-top: 1em;
+    width: 41px; }
+  .quest h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #1078AD; }
+  .quest .btn {
+    margin-left: 30em;
+    font-weight: bold;
+    margin-top: 1em;
+    background-color: #BCDAEA;
+    border: 2px solid #1078AD;
+    color: #1078AD;
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 21em; }
+    .quest .btn:hover {
+      color: #FFF;
+      background: #1078AD; }
+
+.footer__col-1 img {
+  flex-direction: row;
+  margin-left: 38em; }
+
+.footer__col-2 h3 {
+  margin-left: 15em;
+  color: color-blue; }
+
+.footer__col-2 h4 {
+  margin-left: -34em;
+  color: #369D53; }
+
+.footer__col-2 p {
+  text-align: center;
+  margin-left: -45em;
+  font-size: 12px;
+  font-weight: 700;
+  color: #2B2B2C; }
+
+.footer__col-3 {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  margin-left: 46em;
+  margin-top: -10em; }
+
+.footer .footer-links {
+  display: block;
+  margin-top: 9em;
+  width: 20em;
+  font-weight: bold;
+  margin-top: 1em;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(16, 121, 173, 0.5);
+  color: #1078AD;
+  text-align: center;
+  text-decoration: none; }
+
+.footer .buttom-line {
+  margin-top: 9em;
+  padding: 1em;
+  background-color: #1078AD; }
