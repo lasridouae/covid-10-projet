@@ -186,6 +186,9 @@
   margin-left: 46em;
   margin-top: -10em; }
 
+.footer .foot {
+  list-style-type: none; }
+
 .footer .footer-links {
   display: block;
   margin-top: 9em;
@@ -197,6 +200,9 @@
   color: #1078AD;
   text-align: center;
   text-decoration: none; }
+  .footer .footer-links .footer-links:hover {
+    font-weight: bold;
+    color: #1078AD; }
 
 .footer .buttom-line {
   margin-top: 9em;
@@ -220,7 +226,7 @@
 .information .info_links {
   text-decoration: none;
   display: block;
-  margin-left: 26em;
+  margin-left: 24em;
   width: 14em;
   margin-top: -4em;
   background: url(/Starter-file/app/images/png/button-bg.png);
@@ -260,37 +266,34 @@
     margin-left: 7em; }
     .protect .card .card-2 img {
       margin-left: 1em; }
-    .protect .card .card-2 h3 {
+    .protect .card .card-2 h4 {
       margin-left: -5em; }
   .protect .card .card-3 {
     margin-top: 1em; }
     .protect .card .card-3 img {
       margin-left: 1em; }
-    .protect .card .card-3 h3 {
+    .protect .card .card-3 h4 {
       margin-left: -5em; }
   .protect .card .card-4 {
-    margin-left: 10em; }
+    margin-left: 9em; }
     .protect .card .card-4 img {
       margin-left: -1em; }
-    .protect .card .card-4 h3 {
+    .protect .card .card-4 h4 {
       margin-left: -5em; }
   .protect .card .card-5 {
     margin-left: 8em; }
     .protect .card .card-5 img {
       margin-left: -1em; }
-    .protect .card .card-5 h3 {
+    .protect .card .card-5 h4 {
       margin-left: -5em; }
   .protect .card .card-6 img {
     margin-left: -1em; }
-  .protect .card .card-6 h3 {
+  .protect .card .card-6 h4 {
     margin-left: -3em; }
   .protect .card .card-7 img {
-    margin-left: 8em; }
-  .protect .card .card-7 h3 {
+    margin-left: 7em; }
+  .protect .card .card-7 h4 {
     margin-left: -1em;
     text-align: center; }
-  .protect .card img {
-    margin-left: 4em; }
-  .protect .card h3 {
-    margin-left: -3em;
+  .protect .card h4 {
     text-align: center; }

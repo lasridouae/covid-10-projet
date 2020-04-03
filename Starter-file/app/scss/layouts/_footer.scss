@@ -33,6 +33,12 @@
       margin-top: -10em;
       
       }
+
+      .foot {
+        list-style-type: none;
+      }
+      
+      
       .footer-links{
         display: block;
       margin-top: 9em;
@@ -44,6 +50,10 @@
       color:  $color-blue; 
       text-align: center;
       text-decoration: none;
+      .footer-links:hover {
+        font-weight: bold;
+          color: $color-blue;
+        }
       
       
     }
