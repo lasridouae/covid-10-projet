@@ -8,7 +8,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #BCDAEA;
+  background: url(/Starter-file/app/images/png/navbar-bg.png);
   color: #2B2B2C;
   height: 1em;
   padding: 1em; }
