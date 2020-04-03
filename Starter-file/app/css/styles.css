@@ -8,7 +8,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #BCDAEA;
+  background: url(/Starter-file/app/images/png/navbar-bg.png);
   color: #2B2B2C;
   height: 1em;
   padding: 1em; }
@@ -93,7 +93,7 @@
   flex: 4 0 40%;
   margin: 20px;
   height: 170px;
-  color: color-blue;
+  color: #1078AD;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -166,7 +166,7 @@
 
 .footer__col-2 h3 {
   margin-left: 15em;
-  color: color-blue; }
+  color: #1078AD; }
 
 .footer__col-2 h4 {
   margin-left: -34em;
@@ -186,6 +186,9 @@
   margin-left: 46em;
   margin-top: -10em; }
 
+.footer .foot {
+  list-style-type: none; }
+
 .footer .footer-links {
   display: block;
   margin-top: 9em;
@@ -197,8 +200,100 @@
   color: #1078AD;
   text-align: center;
   text-decoration: none; }
+  .footer .footer-links .footer-links:hover {
+    font-weight: bold;
+    color: #1078AD; }
 
 .footer .buttom-line {
   margin-top: 9em;
   padding: 1em;
   background-color: #1078AD; }
+
+.information_titles {
+  padding-top: 2em;
+  padding-block-end: 6em;
+  background-color: #BCDAEA; }
+  .information_titles h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #1078AD; }
+  .information_titles p {
+    font-weight: bold;
+    text-align: center;
+    color: #1A519E; }
+
+.information .info_links {
+  text-decoration: none;
+  display: block;
+  margin-left: 24em;
+  width: 14em;
+  margin-top: -4em;
+  background: url(/Starter-file/app/images/png/button-bg.png);
+  height: 2em;
+  font-size: 20px;
+  text-align: center; }
+  .information .info_links a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #FFF; }
+
+.protect h1 {
+  margin-top: 1em;
+  font-weight: bold;
+  text-align: center;
+  color: #1078AD; }
+
+.protect .content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+.protect .card {
+  display: flex;
+  height: 12em;
+  align-items: center;
+  justify-content: center;
+  flex: 3 0 26%;
+  margin: 2em;
+  color: #1078AD; }
+  .protect .card .card-1 {
+    margin-left: 6em;
+    margin-top: 3em; }
+    .protect .card .card-1 img {
+      margin-left: 2em; }
+  .protect .card .card-2 {
+    margin-left: 7em; }
+    .protect .card .card-2 img {
+      margin-left: 1em; }
+    .protect .card .card-2 h4 {
+      margin-left: -5em; }
+  .protect .card .card-3 {
+    margin-top: 1em; }
+    .protect .card .card-3 img {
+      margin-left: 1em; }
+    .protect .card .card-3 h4 {
+      margin-left: -5em; }
+  .protect .card .card-4 {
+    margin-left: 9em; }
+    .protect .card .card-4 img {
+      margin-left: -1em; }
+    .protect .card .card-4 h4 {
+      margin-left: -5em; }
+  .protect .card .card-5 {
+    margin-left: 8em; }
+    .protect .card .card-5 img {
+      margin-left: -1em; }
+    .protect .card .card-5 h4 {
+      margin-left: -5em; }
+  .protect .card .card-6 img {
+    margin-left: -1em; }
+  .protect .card .card-6 h4 {
+    margin-left: -3em; }
+  .protect .card .card-7 img {
+    margin-left: 7em; }
+  .protect .card .card-7 h4 {
+    margin-left: -1em;
+    text-align: center; }
+  .protect .card h4 {
+    text-align: center; }

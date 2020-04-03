@@ -1,20 +1,19 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Cairo', sans-serif;
-    
-}
-@import "variables";
-@import "navbar";
+@import "./base/base";
+@import "./utils/variables";
+@import "./layouts/navbar";
 
-@import "info";
+@import "./layouts/info";
 
-@import "test";
+@import "./layouts/test";
 
-@import "cont";
+@import "./layouts/cont";
 
-@import "rec";
+@import "./layouts/rec";
 
-@import "quest";
+@import "./layouts/quest";
 
-@import "footer";
+@import "./layouts/footer";
+
+@import "./layouts/information";
+
+@import "./layouts/protect";

@@ -1,0 +1,106 @@
+.protect{
+     h1{
+      margin-top: 1em;
+      font-weight: bold;
+      text-align: center;
+    color: $color-blue;
+    }
+    
+    .content{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+     
+    }
+    .card{
+        display: flex;
+    height: 12em;
+    align-items: center;
+    justify-content: center;
+    flex: 3 0 26%;
+    margin: 2em;
+        color: $color-blue;
+        
+        .card-1{
+            margin-left: 6em;
+            margin-top: 3em;
+            img{
+                margin-left: 2em;
+            }
+
+        }
+        .card-2{
+            margin-left: 7em;
+            img{
+                margin-left: 1em;
+            }
+            h4{
+                margin-left: -5em;
+              
+            }
+
+        }
+        .card-3{
+            margin-top: 1em;
+            img{
+                margin-left: 1em;
+            }
+            h4{
+                margin-left: -5em;
+              
+            }
+
+        }
+        .card-4{
+            margin-left: 9em;
+            img{
+                margin-left: -1em;
+            }
+            h4{
+                margin-left: -5em;
+              
+            }
+
+        }
+        .card-5{
+            margin-left: 8em;
+            img{
+                margin-left: -1em;
+            }
+            h4{
+                margin-left: -5em;
+              
+            }
+
+        }
+        
+
+
+        .card-6{
+            img{
+                margin-left: -1em;
+            }
+            h4{
+                margin-left:-3em;
+            //   text-align: center;
+            }
+        }
+        .card-7{
+            img{
+                margin-left: 7em;
+            }
+            h4{
+                margin-left:-1em;
+              text-align: center;
+            }
+        }
+        h4{
+           
+          text-align: center;
+        }
+
+
+
+    }
+   
+    }

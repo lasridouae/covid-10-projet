@@ -1,0 +1,40 @@
+.information{
+   &_titles{
+    padding-top: 2em;
+    padding-block-end: 6em;
+    background-color: $color-button;
+    h1{
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        color:$color-blue ;
+    }
+    p{
+        font-weight: bold;
+    text-align: center;
+    color: $color-sous-titre;
+    }
+   } 
+   .info{
+      &_links{
+          
+        text-decoration: none;
+        display: block;
+        margin-left: 24em;
+        width: 14em;    
+        margin-top: -4em;
+        background: url(/Starter-file/app/images/png/button-bg.png);
+        height: 2em;
+        font-size: 20px;
+        text-align: center;
+   a{
+       font-size: 1em;
+    text-decoration: none;
+    color:  $color-white; 
+    
+   }
+        
+        
+      }
+}
+}
