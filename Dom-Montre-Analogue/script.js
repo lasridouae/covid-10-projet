@@ -4,6 +4,7 @@ const AIGUILLEMIN = document.querySelector("#minute");
 const AIGUILLESEC = document.querySelector("#second");
 
 
+
 // Déplacer les aiguilles 
 function demarrerLaMontre() {
 //Extraire l'heure actuel à l'aide de l'objet Date()
