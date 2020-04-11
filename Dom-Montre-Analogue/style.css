@@ -1,10 +1,22 @@
 /* Layout */
+body{
+    background-color: beige;
+}
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3em;
+}
+
 .main {
+    margin-top: -3rem;
     display: flex;
     padding: 2em;
     height: 90vh;
     justify-content: center;
     align-items: middle;
+    
 }
 
 .clockbox,
@@ -15,7 +27,7 @@
 /* Clock styles */
 .circle {
     fill: none;
-    stroke: #000;
+    stroke: rgb(196, 133, 133);
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
@@ -25,7 +37,7 @@
 }
 .hour-marks {
     fill: none;
-    stroke: #000;
+    stroke: palevioletred;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
@@ -46,7 +58,7 @@
 
 .second-arm {
     fill: none;
-    stroke: #000;
+    stroke: palevioletred;
     stroke-width: 4;
     stroke-miterlimit: 10;
 }
