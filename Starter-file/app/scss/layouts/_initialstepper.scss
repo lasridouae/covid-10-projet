@@ -1,0 +1,118 @@
+
+.row{
+
+  .md-stepper-horizontal {
+    display:table;
+    width: 60%;
+    margin:0 auto;
+  }
+  .md-stepper-horizontal .md-step {
+    display:table-cell;
+    position:relative;
+    padding:24px;
+  }
+
+  .md-stepper-horizontal .md-step .md-step-circle { 
+    width:30px;
+    height:30px;
+    margin:0 auto;
+    border-radius: 50%;
+    text-align: center;
+    line-height:30px;
+    font-size: 16px;
+    font-weight: 600;
+    
+  }
+ 
+  .md-stepper-horizontal .md-step.active .md-step-circle {
+    background-color: $color-blue;
+  }
+
+  .md-stepper-horizontal .md-step .md-step-title,
+  .md-stepper-horizontal  {
+    text-align: center;
+    color:$color-blue;
+  }
+  
+ 
+  .md-stepper-horizontal .md-step  {
+    right:0;
+    left:50%;
+    margin-left:20px;
+  }
+  .md-stepper-horizontal .md-step  {
+    left:0;
+    right:50%;
+    margin-right:20px;
+  }
+
+.md-step .active-yellow{
+
+   width:30px;
+    height:30px;
+    margin:0 auto;
+    border-radius: 50%;
+    text-align: center;
+    line-height:30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.preambule{
+  padding: 2em;
+  margin: 11em;
+  background-color: $backgroundcolor;
+  
+  margin-top: 2em;
+  h3{
+
+      text-align: center;
+      color:$color-blue ;
+  }
+  p{
+
+    font-size: 1em;
+      color: $color-grey;
+      text-align: center;
+  }
+}
+
+.testbtn{
+
+  margin-top: -9em;
+  padding-bottom: 5em;
+}
+.btn{
+  margin-left: 33em;
+  font-weight: bold;
+  background-color: #BCDAEA;
+  border: 2px solid #1078AD;
+  color: #1078AD;
+  border-radius: -15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 12em;
+} 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
