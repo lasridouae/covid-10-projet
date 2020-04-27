@@ -2,9 +2,9 @@
 .row{
 
   .md-stepper-horizontal {
-    display:table;
-    width: 60%;
-    margin:0 auto;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
   }
   .md-stepper-horizontal .md-step {
     display:table-cell;
@@ -46,8 +46,7 @@
     margin-right:20px;
   }
 
-.md-step .active-yellow{
-
+.md-step-circle-yellow{
    width:30px;
     height:30px;
     margin:0 auto;
@@ -59,13 +58,14 @@
 }
 
 .preambule{
+  
   padding: 2em;
-  margin: 11em;
+  margin: 22em;
   background-color: $backgroundcolor;
   
   margin-top: 2em;
   h3{
-
+    font-size: bold;
       text-align: center;
       color:$color-blue ;
   }
@@ -79,7 +79,7 @@
 
 .testbtn{
 
-  margin-top: -9em;
+  margin-top: -20em;
   padding-bottom: 5em;
 }
 .btn{

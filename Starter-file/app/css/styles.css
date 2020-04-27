@@ -299,9 +299,9 @@
     text-align: center; }
 
 .row .md-stepper-horizontal {
-  display: table;
-  width: 60%;
-  margin: 0 auto; }
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .row .md-stepper-horizontal .md-step {
   display: table-cell;
@@ -336,7 +336,7 @@
   right: 50%;
   margin-right: 20px; }
 
-.row .md-step .active-yellow {
+.row .md-step-circle-yellow {
   width: 30px;
   height: 30px;
   margin: 0 auto;
@@ -348,10 +348,11 @@
 
 .row .preambule {
   padding: 2em;
-  margin: 11em;
+  margin: 22em;
   background-color: #e9ecef;
   margin-top: 2em; }
   .row .preambule h3 {
+    font-size: bold;
     text-align: center;
     color: #1078AD; }
   .row .preambule p {
@@ -360,7 +361,7 @@
     text-align: center; }
 
 .row .testbtn {
-  margin-top: -9em;
+  margin-top: -20em;
   padding-bottom: 5em; }
 
 .row .btn {
