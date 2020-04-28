@@ -1,110 +1,135 @@
 
-.row{
+.stepper{
+  background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, .04588);
+    padding-left:5em;
+    padding-right:5em;
 
-  .md-stepper-horizontal {
-    display: flex ;
-    align-items: center;
-    justify-content: center;
-  }
-  .md-stepper-horizontal .md-step {
-    display:table-cell;
-    position:relative;
-    padding:24px;
-  }
+    &-horizontal {
+     
+      justify-content: space-evenly;
+      padding: 250px;
+      
 
-  .md-stepper-horizontal .md-step .md-step-circle { 
-    width:30px;
-    height:30px;
-    margin:0 auto;
-    border-radius: 50%;
-    text-align: center;
-    line-height:30px;
-    font-size: 16px;
-    font-weight: 600;
-    
-  }
- 
-  .md-stepper-horizontal .md-step.active .md-step-circle {
-    background-color: $color-blue;
-  }
+        & .steps {
+          margin-top: -18em;
+            display: flex;
+            column-count: 3;
+            align-items: center;
+            
+           
 
-  .md-stepper-horizontal .md-step .md-step-title,
-  .md-stepper-horizontal  {
-    text-align: center;
-    color:$color-blue;
-  }
-  
- 
-  .md-stepper-horizontal .md-step  {
-    right:0;
-    left:50%;
-    margin-left:20px;
-  }
-  .md-stepper-horizontal .md-step  {
-    left:0;
-    right:50%;
-    margin-right:20px;
-  }
+            & .step {
+                width: 100%;
+                text-align: center;
+                line-height: 0.1em;
+                margin: 10px 0 20px;
 
-.md-step-circle-yellow{
-   width:30px;
-    height:30px;
-    margin:0 auto;
-    border-radius: 50%;
-    text-align: center;
-    line-height:30px;
-    font-size: 16px;
-    font-weight: 600;
-}
+                & span {
+                    height: 25px;
+                    width: 25px;
+                    background-color:$color-blue;
+                    border-radius: 50%;
+                    display: inline-block;
+                   
+
+                }
+               
+            }
+            .title
+            {
+                color:$color-blue;
+                font-weight: bold;
+                margin-top: 2.5em;
+               
+            }
+            .title.ac
+            {
+                margin-top: 0.75em;
+            }
+
+            & .step.active {
+                & span {
+                  
+                    background-color:$color-orangy;
+                    border: 9px solid #BCDAEA;
+                    padding: 0px;
+
+                }
+            }
+        }
+    }
+
+
 
 .preambule{
-  
-  padding: 2em;
-  margin: 22em;
+  font-weight: bold;
+  padding:1em;
+  margin: 11em;
+  margin-top: -30em;
   background-color: $backgroundcolor;
-  
-  margin-top: 2em;
+  & .tabs {
+    padding-block-start: 2em;
+    padding-block-end: 2em;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    & .tab {
+        display: none;
+    }
+
+    & .tab.active {
+        display: block ;
+    }
+
   h3{
-    font-size: bold;
+    
+    font-weight: bold;
       text-align: center;
       color:$color-blue ;
   }
   p{
-
+    margin-top: 1em;
     font-size: 1em;
       color: $color-grey;
       text-align: center;
   }
 }
-
-.testbtn{
-
-  margin-top: -20em;
-  padding-bottom: 5em;
 }
-.btn{
-  margin-left: 33em;
-  font-weight: bold;
-  background-color: #BCDAEA;
-  border: 2px solid #1078AD;
-  color: #1078AD;
-  border-radius: -15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  width: 12em;
-  &:hover{
-    color:  $color-white;
-  background:  $color-blue;
-  }
-} 
-
-
 }
+.testbtn {
+  margin-bottom: -27em;
+  button{
+  display: block;
+  margin-left: -29em;
+   margin-right: auto;
+ font-weight: bold;
+ background-color: $color-button;
+ border: 2px solid $color-blue;
+ color: $color-blue;
+ border-radius: -15px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ width: 12em;
+ &:hover{
+ color:  $color-white;
+ background:  $color-blue;
+ }
+ }
 
-
-
+ &:active {
+  outline: none;
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+}
 
 
 
