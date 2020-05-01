@@ -69,7 +69,9 @@
   margin: 11em;
   margin-top: -30em;
   background-color: $backgroundcolor;
-  & .tabs {
+  
+}
+   .tabs {
     padding-block-start: 2em;
     padding-block-end: 2em;
     width: 100%;
@@ -78,11 +80,11 @@
     display: flex;
     align-items: center;
 
-    & .tab {
+     .tab {
         display: none;
     }
 
-    & .tab.active {
+     .tab.active {
         display: block ;
     }
 
@@ -99,7 +101,7 @@
       text-align: center;
   }
 }
-}
+
 }
 .testbtn {
   margin-bottom: -27em;

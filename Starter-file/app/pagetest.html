@@ -68,24 +68,27 @@
   <p>Cette application ne substitue pas votre médecin qui est plus apte à vous donner plus de précision. <br>
       Les informations de cette application est le premier niveau de la détection des cas possibles du COVID-19.</p> 
     </div>
-    <div id="second" class="tab">
-    
-    
+  
+    <div id="second" class="tab">  
     <div id="Progress">
+    
       <div id="Bar"></div>
     </div>
+  
     <p>1/22</p>
-    
+  
+
 <script>
+  
 var i = 0;
 function move() {
-  if (i == 0) {
-    i = 1;
+  if (i = 0) {
+    i += 1;
     var elem = document.getElementById("Bar");
     var width = 1;
-    var id = setInterval(frame, 10);
+    var id = setInterval(frame, 22);
     function frame() {
-      if (width >= 100) {
+      if (width >= 107) {
         clearInterval(id);
         i = 0;
       } else {
@@ -101,13 +104,14 @@ function move() {
         <h1>Pensez-vous avoir ou avoir eu de la fièvre ces derniers jours <br> (frissons, sueurs) ?</h1>
         <form class="answer">
          
-           <button><i class="fa fa-check"></i>Oui</button>
+           <button class="txtquest"><i class="fa fa-check"></i>Oui</button>
          
-           <button style="margin-left: 2em;"><i class="fa fa-close"></i>Non</button>
+           <button class="txtquest" style="margin-left: 2em;"><i class="fa fa-close"></i>Non</button>
         </form>
         <div class="firstbtn">
           <btn id="nxtBtn" onclick="move()">suivant</btn>  
         </div> 
+      
     </section>
   <div id="third" class="tab">
     Tab 3	

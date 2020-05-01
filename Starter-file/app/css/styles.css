@@ -339,27 +339,27 @@
     margin: 11em;
     margin-top: -30em;
     background-color: #e9ecef; }
-    .stepper .preambule .tabs {
-      padding-block-start: 2em;
-      padding-block-end: 2em;
-      width: 100%;
-      height: 100%;
-      justify-content: center;
-      display: flex;
-      align-items: center; }
-      .stepper .preambule .tabs .tab {
-        display: none; }
-      .stepper .preambule .tabs .tab.active {
-        display: block; }
-      .stepper .preambule .tabs h3 {
-        font-weight: bold;
-        text-align: center;
-        color: #1078AD; }
-      .stepper .preambule .tabs p {
-        margin-top: 1em;
-        font-size: 1em;
-        color: #7F7F7F;
-        text-align: center; }
+  .stepper .tabs {
+    padding-block-start: 2em;
+    padding-block-end: 2em;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center; }
+    .stepper .tabs .tab {
+      display: none; }
+    .stepper .tabs .tab.active {
+      display: block; }
+    .stepper .tabs h3 {
+      font-weight: bold;
+      text-align: center;
+      color: #1078AD; }
+    .stepper .tabs p {
+      margin-top: 1em;
+      font-size: 1em;
+      color: #7F7F7F;
+      text-align: center; }
 
 .testbtn {
   margin-bottom: -27em; }
@@ -418,7 +418,7 @@
   margin-left: -56em; }
 
 #second .question h1 {
-  margin-top: 3em;
+  margin-top: 2em;
   font-size: 2em;
   text-align: center;
   color: #7F7F7F;
@@ -449,3 +449,12 @@
   #second .question button:hover {
     color: #F4CF1B;
     background: #1078AD; }
+
+.invisible {
+  display: none; }
+
+.visible {
+  display: block; }
+
+.flex {
+  display: flex; }
