@@ -386,23 +386,39 @@
     -webkit-transform: translate(0px, 5px);
     box-shadow: 0px 1px 0px 0px; }
 
-#second .progress {
-  display: flex;
-  justify-content: center;
-  display: none; }
-  #second .progress_bar {
-    width: 80%;
-    border-radius: 1em;
-    border: 1px solid #1078ad;
-    margin: 0 0.5em;
-    background-color: #e3eff6; }
-    #second .progress_bar_fill {
-      background-color: #1078ad;
-      width: 0%;
-      height: 100%;
-      border-radius: 1em; }
+#second #Progress {
+  border-radius: 1em;
+  margin-top: -2em;
+  width: 107%;
+  background-color: #BCDAEA; }
+
+#second #Bar {
+  border-radius: 1em;
+  width: 9%;
+  height: 10px;
+  background-color: #1078AD; }
+
+#second #nxtBtn {
+  border: 2px solid #1078AD;
+  background-color: rgba(16, 121, 173, 0.2);
+  color: #1078AD;
+  transition: .2s;
+  margin-left: 46em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 5em; }
+  #second #nxtBtn:hover {
+    color: #FFF;
+    background: #1078AD; }
+
+#second p {
+  margin-top: -1em;
+  color: black;
+  margin-left: -56em; }
 
 #second .question h1 {
+  margin-top: 3em;
   font-size: 2em;
   text-align: center;
   color: #7F7F7F;
@@ -432,19 +448,4 @@
   transition: .5s; }
   #second .question button:hover {
     color: #F4CF1B;
-    background: #1078AD; }
-
-#second .nav-links {
-  border: 2px solid #1078AD;
-  background-color: rgba(16, 121, 173, 0.2);
-  color: #1078AD;
-  transition: .2s;
-  margin-left: 46em;
-  padding: 1px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  width: 5em; }
-  #second .nav-links:hover {
-    color: #FFF;
     background: #1078AD; }

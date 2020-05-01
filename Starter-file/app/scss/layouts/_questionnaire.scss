@@ -1,32 +1,51 @@
 #second{
+	#Progress {
+		border-radius: 1em;
+		margin-top: -2em;
+		width: 107%;
+		background-color: $color-button;
+	  }
+	  
+	  #Bar {
+		border-radius: 1em;
+		width: 9%;
+    height: 10px;
+    background-color: $color-blue;
+	  }
+	  #nxtBtn{
+		border: 2px solid $color-blue;
+		background-color: rgba(16, 121, 173, 0.2);
+		color: $color-blue;
+		transition: .2s;
+		margin-left: 46em;
 
-.progress 
-{
-	display: flex;
-	justify-content: center;
-	display: none; 
-
-	&_bar 
-	{
-	  width: 80%;
-	  border-radius: 1em;
-	  border: 1px solid #1078ad;
-	  margin: 0 0.5em;
-	  background-color: #e3eff6; 
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		
+		width: 5em;
+		&:hover{
+			color:  $color-white;
+		  background:  $color-blue;
+		  }
+	} 
 	
-	 &_fill 
-	  {
-		background-color: #1078ad;
-		width: 0%;
-		height: 100%;
-		border-radius: 1em; 
-	}
+	
+
+	p{
+		margin-top: -1em;
+		color: black;
+	margin-left: -56em;
+    
+	
 }
-}
+	 
+
 
 .question
 {
 	h1 {
+		margin-top: 3em;
 		font-size: 2em;
 	text-align: center;
    color: $color-grey;
@@ -65,22 +84,6 @@
 			}
 		
 			}
-			.nav-links{
-				border: 2px solid $color-blue;
-				background-color: rgba(16, 121, 173, 0.2);
-				color: $color-blue;
-				transition: .2s;
-				margin-left: 46em;
-				padding: 1px;
-				text-align: center;
-				text-decoration: none;
-				display: inline-block;
-				
-				width: 5em;
-				&:hover{
-					color:  $color-white;
-				  background:  $color-blue;
-				  }
-			}
+		
 }
 
