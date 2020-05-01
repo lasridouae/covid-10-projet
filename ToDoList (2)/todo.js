@@ -95,7 +95,9 @@ onetime(gPop,'click',handler);
 
 //Eventlistner Add TODOS
 btn.addEventListener('click',e =>{
- 
+   e.preventDefault();
+  
+   generateTemp(addForm.add.value);
   
 });
 
@@ -105,6 +107,11 @@ btn.addEventListener('click',e =>{
 
 /*************Deleting  TO DO**************/
 list.addEventListener('click',e =>{
+   if (e.target.tagName === 'LI') {
+
+      e.target.remove();
+   }
+
 
 });
 
@@ -129,8 +136,22 @@ const retrieve = (term) =>{
 
 
 //evenement de recherche des mots clés 
-search.addEventListener('keyup', () =>{
-  
+search.addEventListener('keyup', () => {
+
+   var filter, li, a, i, txtValue;
+   filter = search.value.toUpperCase();
+   li = list.getElementsByTagName("li");
+   for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("span")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+         li[i].style.display = "";
+      } else {
+         li[i].style.setProperty('display', 'none', 'important');
+
+      }
+   }
+
 
 })
 
