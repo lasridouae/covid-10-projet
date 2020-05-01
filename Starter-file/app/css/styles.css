@@ -418,6 +418,7 @@
     transform: translate(-50%, -100%); }
 
 #second .question button {
+  padding-top: 1em;
   text-align: center;
   left: 33%;
   color: #F4CF1B;
