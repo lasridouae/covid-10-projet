@@ -1,98 +1,62 @@
-#second{
 
-	#Progress {
-		border-radius: 1em;
-		margin-top: -2em;
-		width: 107%;
-		background-color: $color-button;
-	  }
-	  
-	  #Bar {
-		border-radius: 1em;
-		width: 9%;
-    height: 10px;
-    background-color: $color-blue;
-	  }
-	  #nxtBtn{
-		border: 2px solid $color-blue;
-		background-color: rgba(16, 121, 173, 0.2);
-		color: $color-blue;
-		transition: .2s;
-		margin-left: 46em;
-
+  #barra {
+	margin-top: -2em;
+	border-radius: 1em;
+	width: 100%;
+	height: 10px;
+	background-color: $color-button;;
+  }
+  
+  #bar {
+	border-radius: 1em;
+	height: 10px;
+	background-color: $color-blue;
+  }
+  h1 {
+			margin-top: 2em;
+			font-size: 2em;
 		text-align: center;
-		text-decoration: none;
-		display: inline-block;
-		
-		width: 5em;
-		&:hover{
-			color:  $color-white;
-		  background:  $color-blue;
-		  }
-	} 
-	
-	
-
-	p{
-		margin-top: -1em;
-		color: black;
-	margin-left: -56em;
-    
-	
-}
-
-
-
-.question
-{
-	h1 {
-		margin-top: 2em;
-		font-size: 2em;
-	text-align: center;
-   color: $color-grey;
-   margin-bottom: 3em; 
-			}
-			.answer{
-				margin-top: -4em;
-
-				.fa
-				{
-					font-size: 26px;
-					position: absolute;
-					top: 51%;
-					left: 50%;
-					transform: translate(-50%, -100%);
+	   color: $color-grey;
+	   margin-bottom: 3em; 
 				}
-			}
-				
-				button	{
-				padding-top: 1em;
-				text-align: center;
-			    left: 33%;
-			    color: $color-orangy;
-				width: 93px;
-				height: 70px;
-                border-radius: 5px;
-                border: 3px solid $color-blue;
-                position: relative;
-                color: $color-blue;
-                font-weight: 500;
-				transition: .5s;
-				&:hover{
-					color:  $color-orangy;
-				  background:  $color-blue;
-				  }
-			}
-		
-			}
-		
-}
-.invisible {
-	display: none; }
   
-  .visible {
-	display: block; }
+ 
+
   
-  .flex {
-	display: flex; }
+  #next {
+	border: 2px solid $color-blue;
+	background-color: rgba(16, 121, 173, 0.2);
+	color: $color-blue;
+	transition: .2s;
+	margin-left: 46em;
+
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	
+	width: 5em;
+	&:hover{
+		color:  $color-white;
+	  background:  $color-blue;
+	  }
+  }
+  
+  #back {
+	border: 2px solid $color-blue;
+	background-color: rgba(16, 121, 173, 0.2);
+	color: $color-blue;
+	width: 5em;
+	transition: .2s;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+  
+
+
+
+  
 
