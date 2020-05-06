@@ -1,0 +1,49 @@
+.page{
+   &_container{
+    display: flex;
+    img{
+        width: 35em;
+        
+    }
+
+    .img1{
+        margin-top: 5em;
+        margin-left: 27em;
+        width: 43em;
+        height: 21em;
+    }
+
+    .img2{
+        margin-top: 4em;
+        margin-left: -26em;
+        width: 24em;
+        height: 10em;
+    }
+    h1{
+        font-size: 2em;
+        font-weight: bold;
+        color: #1078AD;
+        margin-top: 14em;
+        margin-left: -14em;
+    }
+   }
+   .btn{
+    margin-left: 31em;
+    font-weight: bold;
+    margin-top: 1em;
+    background-color: $color-button;
+    border: 2px solid $color-blue;
+    color: $color-blue;
+    border-radius: 8px;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 14em;
+    &:hover{
+        color:  $color-white;
+      background:  $color-blue;
+      }
+   } 
+}

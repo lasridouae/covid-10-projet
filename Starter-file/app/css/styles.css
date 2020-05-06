@@ -504,3 +504,42 @@ input[type="radio"] + label {
 
 .mm-item-info {
   float: right; }
+
+.page_container {
+  display: flex; }
+  .page_container img {
+    width: 35em; }
+  .page_container .img1 {
+    margin-top: 5em;
+    margin-left: 27em;
+    width: 43em;
+    height: 21em; }
+  .page_container .img2 {
+    margin-top: 4em;
+    margin-left: -26em;
+    width: 24em;
+    height: 10em; }
+  .page_container h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #1078AD;
+    margin-top: 14em;
+    margin-left: -14em; }
+
+.page .btn {
+  margin-left: 31em;
+  font-weight: bold;
+  margin-top: 1em;
+  background-color: #BCDAEA;
+  border: 2px solid #1078AD;
+  color: #1078AD;
+  border-radius: 8px;
+  padding: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 14em; }
+  .page .btn:hover {
+    color: #FFF;
+    background: #1078AD; }
