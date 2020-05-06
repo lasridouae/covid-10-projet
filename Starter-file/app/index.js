@@ -176,7 +176,6 @@ jQuery('#back').hide();
 
 		jQuery(item).on('click', function() {
 			if( jQuery('input:checked').length > 0 ) {
-		    	// console.log(item.val());
 		    	jQuery('label').parent().removeClass('active');
 		    	item.closest( 'li' ).addClass('active');
 			}
@@ -235,76 +234,4 @@ jQuery('#back').hide();
 		}
 	}
 
-	function submitData() {
-		jQuery('.mm-finish-btn').on('click', function() {
-			collectData();
-			jQuery('.mm-survey-bottom').slideUp();
-			jQuery('.mm-survey-results').slideDown();
-		});
-	}
-
-	function collectData() {
-		
-		var map = {};
-		var ax = [''];
-		var answer = '';
-		var total = 0;
-		var ttl = 0;
-		var g;
-		var c = 0;
-
-		jQuery('.mm-survey-item input:checked').each(function(index, val) {
-			var item;
-			var data;
-			var name;
-			var n;
-
-			item = jQuery(this);
-			data = item.val();
-			name = item.data('item');
-			n = parseInt(data);
-			total += n;
-
-			map[name] = data;
-
-		});
-
-		jQuery('.mm-survey-results-container .mm-survey-results-list').html('');
-
-		for (i = 1; i <= count; i++) {
-
-			var t = {};
-			var m = {};
-			answer += map[i] + '<br>';
-			
-			if( map[i] === ax[i]) {
-				g = map[i];
-				p = 'correct';
-				c = 1;
-			}
-			else {
-				g = map[i];
-				p = 'incorrect';
-				c = 0;
-			}
-
-			jQuery('.mm-survey-results-list').append('<li class="mm-survey-results-item '+p+'"><span class="mm-item-number">'+i+'</span><span class="mm-item-info">'+g+' - '+p+'</span></li>');
-
-			m[i] = c;
-			ttl += m[i];
-
-		}
-
-		var results;
-		results = ( ( ttl / count ) * 100 ).toFixed(0);
-
-		jQuery('.mm-survey-results-score').html( results + '%' );
-
-	}
-
-	function goBack() {
-		jQuery('.mm-back-btn').on('click', function() {
-			jQuery('.mm-survey-bottom').slideDown();
-			jQuery('.mm-survey-results').slideUp();
-		});
-	}
+	
