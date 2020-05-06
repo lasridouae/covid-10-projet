@@ -386,38 +386,14 @@
     -webkit-transform: translate(0px, 5px);
     box-shadow: 0px 1px 0px 0px; }
 
-#barra {
-  margin-top: -2em;
-  border-radius: 1em;
-  width: 100%;
-  height: 10px;
-  background-color: #BCDAEA; }
+.mm-survey-page {
+  display: none;
+  font-family: 'Raleway';
+  font-weight: 100;
+  padding: 40px; }
 
-#bar {
-  border-radius: 1em;
-  height: 10px;
-  background-color: #1078AD; }
-
-h1 {
-  margin-top: 2em;
-  font-size: 2em;
-  text-align: center;
-  color: #7F7F7F;
-  margin-bottom: 3em; }
-
-#next {
-  border: 2px solid #1078AD;
-  background-color: rgba(16, 121, 173, 0.2);
-  color: #1078AD;
-  transition: .2s;
-  margin-left: 46em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  width: 5em; }
-  #next:hover {
-    color: #FFF;
-    background: #1078AD; }
+.mm-survey-page.active {
+  display: block; }
 
 #back {
   border: 2px solid #1078AD;
@@ -431,3 +407,100 @@ h1 {
   font-size: 12px;
   margin: 4px 2px;
   cursor: pointer; }
+
+.mm-finish-btn {
+  display: none;
+  position: relative; }
+
+.mm-finish-btn button {
+  border: 2px solid #1078AD;
+  background-color: rgba(16, 121, 173, 0.2);
+  color: #1078AD;
+  transition: .2s;
+  margin-left: 58em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 7em; }
+
+.mm-survey-controller button {
+  border: 2px solid #1078AD;
+  background-color: rgba(16, 121, 173, 0.2);
+  color: #1078AD;
+  transition: .2s;
+  margin-left: 46em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 5em; }
+
+.mm-survey-progress {
+  margin-top: -2em;
+  border-radius: 1em;
+  width: 100%;
+  height: 10px;
+  background-color: #BCDAEA; }
+
+.mm-progress {
+  transition: width 0.5s ease-in-out; }
+
+.mm-survey-progress-bar {
+  border-radius: 1em;
+  height: 10px;
+  background-color: #1078AD; }
+
+.mm-survey-q {
+  list-style-type: none;
+  padding: 0px; }
+
+.mm-survey-q li {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  background: #fff; }
+
+.mm-survey-q li input {
+  width: 100%; }
+
+.mm-survery-content label:hover {
+  cursor: pointer;
+  background-color: #1078AD;
+  color: #F4CF1B; }
+
+.mm-survey-question {
+  text-align: center;
+  min-height: 100px;
+  color: #7F7F7F;
+  font-weight: bold;
+  font-size: 1em; }
+
+input[type="radio"] {
+  display: none; }
+
+.mm-survey-item {
+  margin-left: 15em; }
+
+input[type="radio"] + label {
+  text-align: center;
+  border: 3px solid #1078AD;
+  color: #1078AD;
+  font-weight: 500;
+  transition: .5s;
+  display: inline-block;
+  margin: 2px 4px 0 0;
+  vertical-align: middle;
+  width: 99px;
+  height: 65px;
+  border-radius: 5px; }
+
+.deg {
+  margin-left: -5em;
+  width: 35em;
+  padding: 0.22em;
+  border: 0.5px solid #BCDAEA; }
+
+.mm-finish-btn.active {
+  display: inline-block; }
+
+.mm-item-info {
+  float: right; }
