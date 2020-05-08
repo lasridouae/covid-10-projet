@@ -19,22 +19,20 @@ jQuery('#back').hide();
 	function init() {
 		
 		jQuery('.mm-survey-container .mm-survey-page').each(function() {
-
+			
 			var item;
 			var page;
-
 			item = jQuery(this);
 			page = item.data('page');
-
+			
 			item.addClass('mm-page-'+page);
 			//item.html(page);
 
 		});
 
 	}
-
+	
 	function getCount() {
-
 		count = jQuery('.mm-survey-page').length;
         return count;
        
@@ -111,7 +109,6 @@ jQuery('#back').hide();
 	}
 
 	function buildProgress(g) {
-
 		if(g > 1){
 			g = g - 1;
 		}
@@ -133,7 +130,7 @@ jQuery('#back').hide();
 	function getCurrentSlide() {
 
 		jQuery('.mm-survey-page').each(function() {
-
+			jQuery("#questCount").text( (x + "") + " / 22");
 			var item;
 
 			item = jQuery(this);
