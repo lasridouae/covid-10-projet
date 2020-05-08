@@ -337,7 +337,9 @@
     font-weight: bold;
     padding: 1em;
     margin: 11em;
-    margin-top: -30em;
+    margin-top: -30em; }
+  .stepper #first {
+    padding: 3em;
     background-color: #e9ecef; }
   .stepper .tabs {
     padding-block-start: 2em;
