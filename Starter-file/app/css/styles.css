@@ -399,7 +399,7 @@
   border: 2px solid #1078AD;
   background-color: rgba(16, 121, 173, 0.2);
   color: #1078AD;
-  width: 5em;
+  width: 7em;
   transition: .2s;
   text-align: center;
   text-decoration: none;
@@ -429,11 +429,11 @@
   background-color: rgba(16, 121, 173, 0.2);
   color: #1078AD;
   transition: .2s;
-  margin-left: 46em;
+  margin-left: 42em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  width: 5em; }
+  width: 7em; }
 
 .mm-survey-progress {
   margin-left: 3em;
@@ -464,10 +464,8 @@
 .mm-survey-q li input {
   width: 100%; }
 
-.mm-survery-content label:hover {
-  cursor: pointer;
-  background-color: #1078AD;
-  color: #F4CF1B; }
+.mm-survey-item {
+  margin-left: 15em; }
 
 .mm-survey-question {
   text-align: center;
@@ -478,9 +476,6 @@
 
 input[type="radio"] {
   display: none; }
-
-.mm-survey-item {
-  margin-left: 15em; }
 
 input[type="radio"] + label {
   text-align: center;
@@ -495,8 +490,17 @@ input[type="radio"] + label {
   height: 65px;
   border-radius: 5px; }
 
+input[type="radio"] label:checked {
+  border: 2px solid grey;
+  background: transparent; }
+
+.mm-survery-content label:hover {
+  cursor: pointer;
+  background-color: #1078AD;
+  color: #F4CF1B; }
+
 .deg {
-  margin-left: -5em;
+  margin-left: -8em;
   width: 35em;
   padding: 0.22em;
   border: 0.5px solid #BCDAEA; }
