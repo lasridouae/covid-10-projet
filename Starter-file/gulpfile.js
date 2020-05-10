@@ -13,7 +13,7 @@ const { series } = require('gulp');
 var concat = require('gulp-concat');
 
 gulp.task('prefix', () =>
-    gulp.src('app/css/styles.css')
+     gulp.src('app/css/styles.css')
         .pipe(autoprefixer({
             browsers: ['last 99 versions'],
             cascade: false

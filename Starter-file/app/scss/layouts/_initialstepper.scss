@@ -1,0 +1,154 @@
+
+.stepper{
+  background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, .04588);
+    padding-left:5em;
+    padding-right:5em;
+
+    &-horizontal {
+     
+      justify-content: space-evenly;
+      padding: 250px;
+      
+
+        & .steps {
+          margin-top: -18em;
+            display: flex;
+            column-count: 3;
+            align-items: center;
+            
+           
+
+            & .step {
+                width: 100%;
+                text-align: center;
+                line-height: 0.1em;
+                margin: 10px 0 20px;
+
+                & span {
+                    height: 25px;
+                    width: 25px;
+                    background-color:$color-blue;
+                    border-radius: 50%;
+                    display: inline-block;
+                   
+
+                }
+               
+            }
+            .title
+            {
+                color:$color-blue;
+                font-weight: bold;
+                margin-top: 2.5em;
+               
+            }
+            .title.ac
+            {
+                margin-top: 0.75em;
+            }
+
+            & .step.active {
+                & span {
+                  
+                    background-color:$color-orangy;
+                    border: 9px solid #BCDAEA;
+                    padding: 0px;
+
+                }
+            }
+        }
+    }
+
+
+
+.preambule{
+  
+  font-weight: bold;
+  padding:1em;
+  margin: 11em;
+  margin-top: -33em;
+  
+}
+#first{
+  padding: 3em;
+  background-color: $backgroundcolor;
+}
+   .tabs {
+    padding-block-start: 2em;
+    padding-block-end: 2em;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+     .tab {
+        display: none;
+    }
+
+     .tab.active {
+        display: block ;
+    }
+
+  h3{
+    
+    font-weight: bold;
+      text-align: center;
+      color:$color-blue ;
+  }
+  p{
+    margin-top: 1em;
+    font-size: 1em;
+      color: $color-grey;
+      text-align: center;
+  }
+}
+
+}
+.testbtn {
+  margin-bottom: -27em;
+  button{
+  display: block;
+  margin-left: -29em;
+   margin-right: auto;
+ font-weight: bold;
+ background-color: $color-button;
+ border: 2px solid $color-blue;
+ color: $color-blue;
+ border-radius: -15px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ width: 12em;
+ &:hover{
+ color:  $color-white;
+ background:  $color-blue;
+ }
+ }
+
+ &:active {
+  outline: none;
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

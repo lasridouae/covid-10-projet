@@ -1,0 +1,48 @@
+.md-stepper-horizontal {
+  display: table;
+  width: 100%;
+  margin: 0 auto; }
+
+.md-stepper-horizontal .md-step {
+  display: table-cell;
+  position: relative;
+  padding: 24px; }
+
+.md-stepper-horizontal .md-step .md-step-circle {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 600; }
+
+.md-stepper-horizontal.green .md-step.active .md-step-circle {
+  background-color: #00AE4D; }
+
+.md-stepper-horizontal.orange .md-step.active .md-step-circle {
+  background-color: #F96302; }
+
+.md-stepper-horizontal .md-step.done .md-step-circle:before {
+  font-family: 'FontAwesome';
+  font-weight: 100;
+  content: "\f00c"; }
+
+.md-stepper-horizontal .md-step.done .md-step-circle *,
+.md-stepper-horizontal .md-step.editable .md-step-circle * {
+  display: none; }
+
+.md-stepper-horizontal .md-step.editable .md-step-circle:before {
+  font-family: 'FontAwesome';
+  font-weight: 100;
+  content: "\f040"; }
+
+.md-stepper-horizontal .md-step .md-step-title,
+.md-stepper-horizontal .md-step .md-step-optional {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.26); }
+
+.md-stepper-horizontal .md-step.active .md-step-title {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.87); }
